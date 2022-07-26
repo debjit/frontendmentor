@@ -14,14 +14,29 @@ export default function qrcodecomponent() {
               ></img>
             </div>
             <h3 className="absolte top-1 m-6 text-2xl text-center font-bold font-mono">
-              This is some title text
+            Challenge by Frontendmentor Coded by Debjit Biswas
             </h3>
             <p className="mx-6 mb-10 text-sm text-center text-gray-600">
-              This is some of the meaningless text. This is some of the
-              meaningless text. This is some of the meaningless text.
+              Project for frontendmentor.io using tailwind and next.js by
+              (Debjit Biswas). This is some of the meaningless text.
             </p>
           </div>
         </div>
+      </div>
+      <div className="attribution">
+        Challenge by{" "}
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Frontend Mentor
+        </a>
+        . Coded by{" "}
+        <a href="https://debjit.in" target="_blank" rel="noopener noreferrer">
+          Debjit Biswas
+        </a>
+        .
       </div>
     </>
   );
