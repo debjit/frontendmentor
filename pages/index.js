@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Debjit Biswas project for front end mentor using tailwind and next.js</title>
         <meta
           name="description"
           content="Debjit Biswas project for front end mentor using tailwind and next.js"
