@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import React from "react";
 
 export default function qrcodecomponent() {
@@ -19,11 +20,13 @@ export default function qrcodecomponent() {
           <div className="flex-col bg-gray-100 m-6 rounded-xl shadow-xl md:w-80 md:m-auto">
             <div className="relative p-6 ronded-md">
               <div className="overflow-hidden">
-                <img
-                  src="image-qr-code.png"
-                  alt=""
+                <Image
+                  src="/image-qr-code.png"
+                  width={576}
+                  height={576}
+                  alt="image qr code"
                   className="md:w-full md:h-60 rounded-md"
-                ></img>
+                />
               </div>
               <h1 className="absolte top-1 m-6 text-2xl text-center font-bold font-mono">
                 Challenge by Frontendmentor Coded by Debjit Biswas
