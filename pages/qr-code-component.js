@@ -3,36 +3,42 @@ import React from "react";
 
 export default function qrcodecomponent() {
   return (
-    <>
-    <Head>
-        <title>Debjit Biswas project for front end mentor using tailwind and next.js</title>
+    <div>
+      <Head>
+        <title>
+          Debjit Biswas project for front end mentor using tailwind and next.js
+        </title>
         <meta
           name="description"
           content="Debjit Biswas Frontendmentor end mentor using tailwind and next.js"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="flex bg-blue-100 h-screen">
-        <div className="flex-col bg-gray-100 m-6 rounded-xl shadow-xl md:w-80 md:m-auto">
-          <div className="relative p-6 ronded-md">
-            <div className="overflow-hidden">
-              <img
-                src="image-qr-code.png"
-                alt=""
-                className="md:w-full md:h-60 rounded-md"
-              ></img>
+      <main role="main">
+        <div role="article" id="cardinfo" className="flex bg-blue-100 h-screen">
+          <div className="flex-col bg-gray-100 m-6 rounded-xl shadow-xl md:w-80 md:m-auto">
+            <div className="relative p-6 ronded-md">
+              <div className="overflow-hidden">
+                <img
+                  src="image-qr-code.png"
+                  alt=""
+                  className="md:w-full md:h-60 rounded-md"
+                ></img>
+              </div>
+              <h1 className="absolte top-1 m-6 text-2xl text-center font-bold font-mono">
+                Challenge by Frontendmentor Coded by Debjit Biswas
+              </h1>
+              <p
+                className="mx-6 mb-10 text-sm text-center text
+            -gray-600"
+              >
+                Project for frontendmentor.io using tailwind and next.js by
+                (Debjit Biswas). This is some of the meaningless text.
+              </p>
             </div>
-            <h3 className="absolte top-1 m-6 text-2xl text-center font-bold font-mono">
-            Challenge by Frontendmentor Coded by Debjit Biswas
-            </h3>
-            <p className="mx-6 mb-10 text-sm text-center text
-            -gray-600">
-              Project for frontendmentor.io using tailwind and next.js by
-              (Debjit Biswas). This is some of the meaningless text.
-            </p>
           </div>
         </div>
-      </div>
+      </main>
       <div className="attribution">
         Challenge by{" "}
         <a
@@ -48,6 +54,6 @@ export default function qrcodecomponent() {
         </a>
         .
       </div>
-    </>
+    </div>
   );
 }
