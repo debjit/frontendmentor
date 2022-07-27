@@ -15,7 +15,7 @@ export default function qrcodecomponent() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main role="main">
+      <main >
         <div role="article" id="cardinfo" className="flex bg-blue-100 h-screen">
           <div className="flex-col bg-gray-100 m-6 rounded-xl shadow-xl md:w-80 md:m-auto">
             <div className="relative p-6 ronded-md">
