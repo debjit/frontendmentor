@@ -4,7 +4,7 @@ import React from "react";
 
 export default function qrcodecomponent() {
   return (
-    <div>
+    <>
       <Head>
         <title>
           Debjit Biswas project for front end mentor using tailwind and next.js
@@ -41,22 +41,23 @@ export default function qrcodecomponent() {
             </div>
           </div>
         </div>
+
+        <div className="attribution">
+          Challenge by{" "}
+          <a
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Frontend Mentor
+          </a>
+          . Coded by{" "}
+          <a href="https://debjit.in" target="_blank" rel="noopener noreferrer">
+            Debjit Biswas
+          </a>
+          .
+        </div>
       </main>
-      <div className="attribution">
-        Challenge by{" "}
-        <a
-          href="https://www.frontendmentor.io?ref=challenge"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Frontend Mentor
-        </a>
-        . Coded by{" "}
-        <a href="https://debjit.in" target="_blank" rel="noopener noreferrer">
-          Debjit Biswas
-        </a>
-        .
-      </div>
-    </div>
+    </>
   );
 }
