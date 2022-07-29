@@ -37,8 +37,8 @@ export default function qrcodecomponent() {
                 <div className="py-4 font-extrabold font-mono inline-flex text-3xl ">
                   $149.99<span className="pl-2 line-through text-sm">$199</span>
                 </div>
-                <div className="items-center">
-                  <button className="relative inline-flex items-center p-4 bg-green-900 text-white text-sm rounded-xl mx">
+                <div className="contant-center">
+                  <button className="justify-center w-full relative inline-flex p-4 bg-green-900 text-white text-sm rounded-xl mx">
                     <img
                       src="/product-preview-card-component/icon-cart.svg"
                       alt="Cart Icon"
