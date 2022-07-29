@@ -17,7 +17,7 @@ export default function qrcodecomponent() {
       </Head>
       <main>
         <div role="article" id="cardinfo" className="flex bg-blue-100 h-screen">
-          <div className="max-w-md bg-blue-400 md:max-w-2xl m-auto overflow-hidden rounded-xl">
+          <div className="max-w-md bg-white md:max-w-2xl m-auto overflow-hidden rounded-xl">
             <div className="md:flex">
               <div className="flex-shrink-0">
                 <img
